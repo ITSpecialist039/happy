@@ -48,7 +48,7 @@ function updateShutdownText() {
     const sec = String(targetDateObj.getSeconds()).padStart(2, "0");
 
     document.getElementById("shutdownText").textContent =
-        `⚠️ ${day} ${monthName} ${hour}:${min}:${sec} da sayt bağlanacaq!`;
+        `${day} ${monthName} ${hour}:${min}:${sec} da sayt bağlanacaq!`;
 }
 
 // ==================== SAYĞAC ====================
