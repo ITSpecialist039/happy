@@ -323,7 +323,7 @@ function noTime() {
     document.getElementById("s1").classList.add("sorry");
     
     // 1. Əvvəlcə 3 saniyəlik (˄_˄) göstərilir
-    document.getElementById("ask").textContent = " ˄_˄ ";
+    document.getElementById("ask").textContent = " ies etnemasorolod alleb ";
 
     setTimeout(() => {
         // 2. Ardınca 2 saniyəlik (v_v) göstərilir
