@@ -50,5 +50,98 @@ p{color:#d9d2e2;font-size:clamp(17px,4vw,21px);line-height:1.75}
     0% { opacity: 0.8; transform: scale(1); }
     100% { opacity: 1; transform: scale(1.03); color: #ff9999; }
 }
+@media screen and (max-width: 375px) {
+    .screen {
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .content {
+        width: 100%;
+        max-width: 100%;
+        transform: scale(0.88);
+        transform-origin: center center;
+    }
+
+    h1 {
+        font-size: 23px;
+        line-height: 1.15;
+        margin-bottom: 12px;
+    }
+
+    #s4 h1 {
+        font-size: 22px !important;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .small {
+        font-size: 9px;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+    }
+
+    .message {
+        padding: 13px;
+        margin-top: 12px;
+        max-height: none;
+        overflow: hidden;
+        border-radius: 16px;
+    }
+
+    .message p {
+        font-size: 12px;
+        line-height: 1.45;
+    }
+
+    .birthday-mark {
+        width: 68px;
+        height: 68px;
+        margin-bottom: 12px;
+    }
+
+    .birthday-mark span {
+        font-size: 29px;
+    }
+
+    .btn {
+        margin-top: 14px;
+        padding: 10px 19px;
+        font-size: 13px;
+    }
+
+    .choices {
+        margin-top: 13px;
+        gap: 8px;
+    }
+
+    .name-input {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .expire-notice {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .expire-notice img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .expired-hourglass {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 12px;
+    }
+
+    .shutdown-info {
+        font-size: 11px;
+    }
+}
 
 @media(max-width:480px){.message{padding:20px}.message p{font-size:16px}}
