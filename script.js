@@ -331,10 +331,9 @@ function noTime() {
 
         setTimeout(() => {
             window.close();
-            location.replace("about:blank");
         }, 3); // 2 saniyə sonra səhifə bağlanır
 
-    }, 1000); // 3 saniyə sonra dəyişir
+    }, 2000); // 3 saniyə sonra dəyişir
 }
 
 // ==================== SƏHİFƏLƏR ARASINDA KEÇİD ====================
