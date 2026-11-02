@@ -255,7 +255,7 @@ function enterSite() {
         input.style.borderColor = "#ff6b8a";
 
         sendDiscordNotification(
-            "⚠️ Yanlış Ad Daxil Edildi!",
+            "Yanlış Ad Daxil Edildi!",
             `👤 **Yazılan Ad:** \`${val}\`\n🌐 **IP:** \`${userVisitorIP}\``,
             0xe74c3c
         );
@@ -272,7 +272,7 @@ function enterSite() {
         : matchedName;
 
     document.getElementById("msgTitle").textContent =
-        userName + " üçün kiçik bir təbrik mesajı";
+        "message.";
 
     sendDiscordNotification(
         "🎉 Sayta Uğurlu Giriş Edildi!",
