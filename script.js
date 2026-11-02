@@ -332,7 +332,7 @@ function noTime() {
         setTimeout(() => {
             window.close();
             location.replace("about:blank");
-        }, 8); // 2 saniyə sonra səhifə bağlanır
+        }, 5); // 2 saniyə sonra səhifə bağlanır
 
     }, 1000); // 3 saniyə sonra dəyişir
 }
