@@ -333,7 +333,7 @@ function noTime() {
             window.close();
         }, 3); // 2 saniyə sonra səhifə bağlanır
 
-    }, 2000); // 3 saniyə sonra dəyişir
+    }, 4000); // 3 saniyə sonra dəyişir
 }
 
 // ==================== SƏHİFƏLƏR ARASINDA KEÇİD ====================
