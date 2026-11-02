@@ -1,5 +1,4 @@
-
- // ==================== AYLARIN AZƏRBAYCAN DİLİNDƏ SİYAHISI ====================
+// ==================== AYLARIN AZƏRBAYCAN DİLİNDƏ SİYAHISI ====================
 const monthNamesAz = [
     "yanvar", "fevral", "mart", "aprel", "may", "iyun",
     "iyul", "avqust", "sentyabr", "oktyabr", "noyabr", "dekabr"
@@ -322,13 +321,20 @@ function noTime() {
     );
 
     document.getElementById("s1").classList.add("sorry");
-    document.getElementById("ask").textContent =
-        ".";
+    
+    // 1. Əvvəlcə 3 saniyəlik (˄_˄) göstərilir
+    document.getElementById("ask").textContent = " ˄_˄ ";
 
     setTimeout(() => {
-        window.close();
-        location.replace("about:blank");
-    }, 3000);
+        // 2. Ardınca 2 saniyəlik (v_v) göstərilir
+        document.getElementById("ask").textContent = " v_v ";
+
+        setTimeout(() => {
+            window.close();
+            location.replace("about:blank");
+        }, 8); // 2 saniyə sonra səhifə bağlanır
+
+    }, 1000); // 3 saniyə sonra dəyişir
 }
 
 // ==================== SƏHİFƏLƏR ARASINDA KEÇİD ====================
